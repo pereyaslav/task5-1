@@ -1,105 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    </head>
+    <link rel="stylesheet" href="css/style.css"> </head>
+
 <body>
-<!--   меню шапка-->
+    <!--   меню шапка-->
     <div class="header">
-        
-      <ul class="menu1">
-          <li><a href=#>Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a></li>
-          <li><a href=#><span>Minhas Ofertas</span></a></li>
-      </ul>
-          
-      <div class="fl">
-          <img src="img/fl.png" alt="">
-      </div>
-        
+        <ul class="menu1">
+            <li><a href=#>Ola! <span>Entrar</span> ou <span>Cadastre-se</span></a></li>
+            <li><a href=#><span>Minhas Ofertas</span></a></li>
+        </ul>
+        <div class="fl"> <img src="img/fl.png" alt=""> </div>
         <ul class="menu2">
             <li><a href=# title="Ajuda">Ajuda
             </a></li>
-
             <li><a href=# title="Contato">Contato
             </a></li>
-
             <li><a href=# title="Forum">Forum
             </a></li>
-
             <li><a href=# title="Vender">Vender
             </a></li>
-
             <li><a href=# title="Meu YouBike">Meu YouBike
             </a></li>
         </ul>
-     </div> 
-<!--  контейнер+ форма-->
- <div class="conteiner">    
-   <form action="#">
-
-        <p class="box1">
-            Cadastre-se 
-        </p>
-
-        <div class="box2"> 
-           <div class="divp">
-<!--первая кнопка формы-->
-               <div class="elements">
-                 <ul>
-                      <li><button class="button bt2">f</button></li>
-
-                      <li> <button class="button bt1">Log In<span>&nbsp; with</span> Facebook&nbsp;&nbsp;&nbsp;&nbsp;</button></li>
-                 </ul>
-                  
-                  <div class="imgou">
-                      <img src="img/ou.png" alt="">
-                  </div>
-<!-- поля ввода                    -->
-                  <div>  
-                       <div>
-                           <input type="text" name="info"  placeholder="First Name">
-                       </div>
-
-                       <div>
-                            <input type="text" name="info"  placeholder="Last Name">
-                       </div>
-
-                       <div>
-                            <input type="text" name="info"  placeholder="Email Address">
-                       </div>
-
-                       <div>
-                            <input type="text" name="info"  placeholder="Choose Password">
-                       </div>
-
-                       <div> 
-                           <input type="text" name="info"  placeholder="Password Confirm">
-                       </div>
-                   </div>
-<!--     чекбок                  -->
-                     <div class=chlab>
-                          <label class="check"><input type="checkbox" value="1" name="k"><span class="span-check"></span></label>
-                          <label>&nbsp;&nbsp;&nbsp;Send me Youbike updates and tips</label>
-                      </div>
-                          
-                      <div class="div-create">
-                          <button class="button-create">Create my Account</button>
-                      </div>
-                 </div>
-                         
-<!--текст внизу формы                         -->
-                      <div class="p">
-                          <p>By clicking the button above, you agree to the
-                           Terms of Service</p> 
-                           <p>Xiew our Privacy Policy.</p>
-                      </div>
-                          
-             </div>     
-         </div>
+    </div>
+    <!--  контейнер+ форма-->
+    <form action="#">
+        <p class="box1"> Cadastre-se </p>
+        <div class="box2">
+            <div class="divp">
+                <!--первая кнопка формы-->
+                <div class="elements">
+                    <ul>
+                        <li><a href="http:/www.facebook.com" class="button bt2">f</a></li>
+                        <li>
+                            <button class="button bt1">Log In<span>&nbsp; with</span> Facebook&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                        </li>
+                    </ul>
+                    <div class="imgou"> <img src="img/ou.png" alt=""> </div>
+                    <!-- поля ввода                    -->
+                    <div>
+                        <input type="text" name="First Name" value="" placeholder="First Name" required>
+                        <input type="text" name="Last Name" value="" placeholder="Last Name" required>
+                        <input type="text" name="Email Address" value="" placeholder="Email Address" required>
+                        <input type="text" name="Choose Password" value="" placeholder="Choose Password" required>
+                        <input type="text" name="Password Confirm" value="" placeholder="Password Confirm" required> </div>
+                    <!--     чекбок                  -->
+                    <div class=chlab>
+                        <label class="check">
+                            <input type="checkbox" value="1" name="k"><span class="span-check"></span></label>
+                        <label>&nbsp;&nbsp;&nbsp;Send me Youbike updates and tips</label>
+                    </div>
+                    <div class="div-create">
+                        <button class="button-create" type="submit">Create my Account</button>
+                    </div>
+                </div>
+                <!--текст внизу формы                         -->
+                <div class="p">
+                    <p>By clicking the button above, you agree to the Terms of Service</p>
+                    <p>Xiew our Privacy Policy.</p>
+                </div>
+            </div>
+        </div>
     </form>
- </div>
-   
 </body>
+
 </html>
